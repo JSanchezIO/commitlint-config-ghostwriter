@@ -18,6 +18,14 @@ e.g., Bitbucket, JIRA, Trello. This preset supports configuration via a `.change
 
 <br />
 
+**This package is best used alongside the other `ghostwriter` tools. Each tool can be configured
+using the same `.changelogrc.js` file:**
+
+- [conventional-changelog-ghostwriter](https://github.com/JSanchezIO/conventional-changelog-ghostwriter)
+- [cz-ghostwriter](https://github.com/JSanchezIO/cz-ghostwriter)
+
+<br />
+
 ## Installation
 
 ```sh
@@ -42,8 +50,6 @@ npm i commitlint-config-ghostwriter
 <br />
 
 ## Configuration
-
-<br >
 
 ### `scopes` : _Scope[] | undefined_
 
